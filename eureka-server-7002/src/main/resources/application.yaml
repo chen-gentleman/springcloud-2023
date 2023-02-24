@@ -1,0 +1,11 @@
+server:
+  port: 7002
+spring:
+  application:
+    name: eureka-server-7002
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://192.168.0.56:7001/eureka/
