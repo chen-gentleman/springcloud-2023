@@ -8,4 +8,4 @@ eureka:
     fetch-registry: true  #指定是否要注册到注册中心（注册中心不需要开启 注册中心为集群时，就需要配置）
     register-with-eureka: true #指定是否要从注册中心获取服务（注册中心不需要开启 注册中心为集群时，就需要配置）
     service-url:
-      defaultZone: http://192.168.0.56:7002/eureka/
+      defaultZone: http://192.168.93.1:7002/eureka/

@@ -1,0 +1,21 @@
+server:
+  port: 7004
+spring:
+  application:
+    name: server-provider-01-7004
+  cloud:
+    sentinel:
+      transport:
+        port: 8719   #默认8719端口，假如被占用会自动从8719开始依次+1扫描,直至找到未被占用的端口
+        dashboard: 127.0.0.1:8748   #配置 Sentinel dashboard 地址
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://192.168.93.1:7001/eureka/,http://192.168.93.1:7002/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -11,7 +11,7 @@
     <groupId>com.chen</groupId>
     <artifactId>client-consumer-01-7005</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>client-consumer-01-7005</name>
+    <name>eureka-client-consumer-01-7005</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>

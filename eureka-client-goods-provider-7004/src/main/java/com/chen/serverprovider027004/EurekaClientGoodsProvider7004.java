@@ -2,12 +2,14 @@ package com.chen.serverprovider027004;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
-public class Serverprovider027004Application {
+@EnableDiscoveryClient
+public class EurekaClientGoodsProvider7004 {
 
     public static void main(String[] args) {
-        SpringApplication.run(Serverprovider027004Application.class, args);
+        SpringApplication.run(EurekaClientGoodsProvider7004.class, args);
     }
 
 }
